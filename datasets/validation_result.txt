@@ -1,0 +1,87 @@
+============================================================
+PCI DSS DATASET VALIDATOR
+============================================================
+
+============================================================
+Validating: c:\Users\marco\Downloads\GRC-PCI-Standards-Project\pci_dss_req6_compliant_code_dataset.csv
+============================================================
+Γ£à File loaded successfully
+   Rows: 119
+   Columns: 8
+
+≡ƒôï Columns found:
+   - requirement
+   - sub_requirement
+   - language
+   - control_description
+   - code_example
+   - label
+   - score
+   - reason
+
+Γ£à Code column found: 'code_example'
+
+≡ƒôä Sample code (first 200 chars):
+   DB_PASSWORD = os.getenv('DB_PASSWORD')...
+
+Γ£à No empty code entries
+
+ΓÜá∩╕Å  Warning: No 'requirement_id' column (optional)
+
+Γ£à COMPLIANT dataset validated
+
+============================================================
+VALIDATION SUMMARY
+============================================================
+Γ£à File is valid and ready for RAG system
+   Total examples: 119
+   Code column: 'code_example'
+   Empty entries: 0
+
+============================================================
+Validating: c:\Users\marco\Downloads\GRC-PCI-Standards-Project\pci_dss_req6_non_compliant_code_dataset.csv
+============================================================
+Γ£à File loaded successfully
+   Rows: 119
+   Columns: 8
+
+≡ƒôï Columns found:
+   - requirement
+   - sub_requirement
+   - language
+   - control_description
+   - code_example
+   - label
+   - score
+   - reason
+
+Γ£à Code column found: 'code_example'
+
+≡ƒôä Sample code (first 200 chars):
+   DB_PASSWORD = 'admin123'  # hardcoded secret...
+
+Γ£à No empty code entries
+
+ΓÜá∩╕Å  Warning: No 'requirement_id' column (optional)
+
+Γ£à NON-COMPLIANT dataset validated
+
+============================================================
+VALIDATION SUMMARY
+============================================================
+Γ£à File is valid and ready for RAG system
+   Total examples: 119
+   Code column: 'code_example'
+   Empty entries: 0
+
+============================================================
+FINAL VALIDATION STATUS
+============================================================
+Γ£à Both datasets are valid!
+
+≡ƒÜÇ Ready to run RAG system!
+
+Next steps:
+   1. Upload CSV files to Kaggle
+   2. Copy the RAG system code to Kaggle notebook
+   3. Run compliance checks on user code

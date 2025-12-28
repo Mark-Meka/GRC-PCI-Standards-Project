@@ -1,0 +1,61 @@
+{
+  "training_date": "2025-12-28T13:22:17.008111",
+  "compliant_examples": 119,
+  "non_compliant_examples": 119,
+  "total_examples": 238,
+  "model_features": 1113,
+  "test_results": {
+    "test1_non_compliant": {
+      "status": "NON_COMPLIANT",
+      "confidence": 95,
+      "violations": [
+        {
+          "type": "hardcoded_credentials",
+          "severity": "CRITICAL",
+          "requirement": "REQ_6.2.4",
+          "snippet": "api_key = \"sk_live_12345\""
+        },
+        {
+          "type": "hardcoded_credentials",
+          "severity": "CRITICAL",
+          "requirement": "REQ_6.2.4",
+          "snippet": "key = \"sk_live_12345\""
+        },
+        {
+          "type": "sql_injection",
+          "severity": "CRITICAL",
+          "requirement": "REQ_6.2.4",
+          "snippet": "SELECT * FROM payments WHERE card='\" + card_number"
+        },
+        {
+          "type": "weak_crypto",
+          "severity": "HIGH",
+          "requirement": "REQ_6.2.4",
+          "snippet": "md5"
+        },
+        {
+          "type": "missing_authentication",
+          "severity": "CRITICAL",
+          "requirement": "REQ_6.2.1",
+          "snippet": "def process_payment("
+        }
+      ],
+      "violation_count": 5,
+      "critical_count": 4
+    },
+    "test2_compliant": {
+      "status": "NON_COMPLIANT",
+      "confidence": 75,
+      "violations": [
+        {
+          "type": "missing_authentication",
+          "severity": "CRITICAL",
+          "requirement": "REQ_6.2.1",
+          "snippet": "def process_payment("
+        }
+      ],
+      "violation_count": 1,
+      "critical_count": 1
+    }
+  }
+}

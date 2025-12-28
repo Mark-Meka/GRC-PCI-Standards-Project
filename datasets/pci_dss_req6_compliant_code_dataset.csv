@@ -1,4 +1,4 @@
-requirement,sub_requirement,language,control_description,code_example,label,score,reason
+requirement_id,sub_requirement,language,control_description,code_example,label,score,reason
 6,6.2,Python,Secure configuration management,DB_PASSWORD = os.getenv('DB_PASSWORD'),Compliant,5,Implementation follows PCI DSS Requirement 6 secure coding standards.
 6,6.2,Java,Secure configuration management,"String dbPassword = System.getenv(""DB_PASSWORD"");",Compliant,5,Implementation follows PCI DSS Requirement 6 secure coding standards.
 6,6.2,NodeJS,Secure configuration management,const dbPassword = process.env.DB_PASSWORD;,Compliant,5,Implementation follows PCI DSS Requirement 6 secure coding standards.

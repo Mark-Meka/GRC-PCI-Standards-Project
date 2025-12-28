@@ -1,0 +1,132 @@
+requirement,sub_requirement,language,control_description,code_example,label,score,reason
+6,6.2,Python,Secure configuration management,DB_PASSWORD = 'admin123'  # hardcoded secret,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Java,Secure configuration management,"String dbPassword = ""admin123"";",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,NodeJS,Secure configuration management,const dbPassword = 'admin123';,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Python,Secure configuration management,DB_PASSWORD = 'admin123'  # hardcoded secret,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Java,Secure configuration management,"String dbPassword = ""admin123"";",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,NodeJS,Secure configuration management,const dbPassword = 'admin123';,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Python,Secure configuration management,DB_PASSWORD = 'admin123'  # hardcoded secret,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Java,Secure configuration management,"String dbPassword = ""admin123"";",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,NodeJS,Secure configuration management,const dbPassword = 'admin123';,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Python,Secure configuration management,DB_PASSWORD = 'admin123'  # hardcoded secret,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Java,Secure configuration management,"String dbPassword = ""admin123"";",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,NodeJS,Secure configuration management,const dbPassword = 'admin123';,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Python,Secure configuration management,DB_PASSWORD = 'admin123'  # hardcoded secret,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Java,Secure configuration management,"String dbPassword = ""admin123"";",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,NodeJS,Secure configuration management,const dbPassword = 'admin123';,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Python,Secure configuration management,DB_PASSWORD = 'admin123'  # hardcoded secret,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.2,Java,Secure configuration management,"String dbPassword = ""admin123"";",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,Git,Code review before deployment,"git commit -m ""quick fix"" && git push origin main",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,YAML,Code review before deployment,"deploy:
+  stage: deploy
+  script: deploy.sh",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,GitHub,Code review before deployment,auto_merge: true,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,Git,Code review before deployment,"git commit -m ""quick fix"" && git push origin main",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,YAML,Code review before deployment,"deploy:
+  stage: deploy
+  script: deploy.sh",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,GitHub,Code review before deployment,auto_merge: true,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,Git,Code review before deployment,"git commit -m ""quick fix"" && git push origin main",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,YAML,Code review before deployment,"deploy:
+  stage: deploy
+  script: deploy.sh",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,GitHub,Code review before deployment,auto_merge: true,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,Git,Code review before deployment,"git commit -m ""quick fix"" && git push origin main",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,YAML,Code review before deployment,"deploy:
+  stage: deploy
+  script: deploy.sh",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,GitHub,Code review before deployment,auto_merge: true,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,Git,Code review before deployment,"git commit -m ""quick fix"" && git push origin main",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,YAML,Code review before deployment,"deploy:
+  stage: deploy
+  script: deploy.sh",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,GitHub,Code review before deployment,auto_merge: true,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,Git,Code review before deployment,"git commit -m ""quick fix"" && git push origin main",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.3.2,YAML,Code review before deployment,"deploy:
+  stage: deploy
+  script: deploy.sh",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,"git commit -m ""hotfix""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git push origin main --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git tag v1.2.3 --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,"git commit -m ""hotfix""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git push origin main --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git tag v1.2.3 --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,"git commit -m ""hotfix""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git push origin main --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git tag v1.2.3 --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,"git commit -m ""hotfix""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git push origin main --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git tag v1.2.3 --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,"git commit -m ""hotfix""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git push origin main --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git tag v1.2.3 --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,"git commit -m ""hotfix""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.4,Git,Change control process,git push origin main --force,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Python,Secure coding practices,eval(user_input),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Java,Secure coding practices,Runtime.getRuntime().exec(cmd);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,PHP,Secure coding practices,echo $_GET['input'];,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Python,Secure coding practices,eval(user_input),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Java,Secure coding practices,Runtime.getRuntime().exec(cmd);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,PHP,Secure coding practices,echo $_GET['input'];,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Python,Secure coding practices,eval(user_input),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Java,Secure coding practices,Runtime.getRuntime().exec(cmd);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,PHP,Secure coding practices,echo $_GET['input'];,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Python,Secure coding practices,eval(user_input),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Java,Secure coding practices,Runtime.getRuntime().exec(cmd);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,PHP,Secure coding practices,echo $_GET['input'];,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Python,Secure coding practices,eval(user_input),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Java,Secure coding practices,Runtime.getRuntime().exec(cmd);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,PHP,Secure coding practices,echo $_GET['input'];,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Python,Secure coding practices,eval(user_input),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5,Java,Secure coding practices,Runtime.getRuntime().exec(cmd);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Python,SQL injection prevention,"cursor.execute(""SELECT * FROM users WHERE id="" + user_id)",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Java,SQL injection prevention,Statement stmt = conn.createStatement();,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,PHP,SQL injection prevention,"$sql = ""SELECT * FROM users WHERE id="".$_GET['id'];",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Python,SQL injection prevention,"cursor.execute(""SELECT * FROM users WHERE id="" + user_id)",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Java,SQL injection prevention,Statement stmt = conn.createStatement();,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,PHP,SQL injection prevention,"$sql = ""SELECT * FROM users WHERE id="".$_GET['id'];",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Python,SQL injection prevention,"cursor.execute(""SELECT * FROM users WHERE id="" + user_id)",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Java,SQL injection prevention,Statement stmt = conn.createStatement();,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,PHP,SQL injection prevention,"$sql = ""SELECT * FROM users WHERE id="".$_GET['id'];",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Python,SQL injection prevention,"cursor.execute(""SELECT * FROM users WHERE id="" + user_id)",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Java,SQL injection prevention,Statement stmt = conn.createStatement();,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,PHP,SQL injection prevention,"$sql = ""SELECT * FROM users WHERE id="".$_GET['id'];",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Python,SQL injection prevention,"cursor.execute(""SELECT * FROM users WHERE id="" + user_id)",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Java,SQL injection prevention,Statement stmt = conn.createStatement();,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,PHP,SQL injection prevention,"$sql = ""SELECT * FROM users WHERE id="".$_GET['id'];",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Python,SQL injection prevention,"cursor.execute(""SELECT * FROM users WHERE id="" + user_id)",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.1,Java,SQL injection prevention,Statement stmt = conn.createStatement();,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Python,Secure password storage,password_hash = hashlib.md5(password.encode()).hexdigest(),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Java,Secure password storage,"MessageDigest md = MessageDigest.getInstance(""MD5"");",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,PHP,Secure password storage,md5($password);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Python,Secure password storage,password_hash = hashlib.md5(password.encode()).hexdigest(),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Java,Secure password storage,"MessageDigest md = MessageDigest.getInstance(""MD5"");",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,PHP,Secure password storage,md5($password);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Python,Secure password storage,password_hash = hashlib.md5(password.encode()).hexdigest(),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Java,Secure password storage,"MessageDigest md = MessageDigest.getInstance(""MD5"");",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,PHP,Secure password storage,md5($password);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Python,Secure password storage,password_hash = hashlib.md5(password.encode()).hexdigest(),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Java,Secure password storage,"MessageDigest md = MessageDigest.getInstance(""MD5"");",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,PHP,Secure password storage,md5($password);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Python,Secure password storage,password_hash = hashlib.md5(password.encode()).hexdigest(),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Java,Secure password storage,"MessageDigest md = MessageDigest.getInstance(""MD5"");",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,PHP,Secure password storage,md5($password);,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Python,Secure password storage,password_hash = hashlib.md5(password.encode()).hexdigest(),Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.5.10,Java,Secure password storage,"MessageDigest md = MessageDigest.getInstance(""MD5"");",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Nginx,Web application firewall protection,modsecurity off;,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Apache,Web application firewall protection,SecRuleEngine Off,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,AWS WAF,Web application firewall protection,"rule_action = ""ALLOW""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Nginx,Web application firewall protection,modsecurity off;,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Apache,Web application firewall protection,SecRuleEngine Off,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,AWS WAF,Web application firewall protection,"rule_action = ""ALLOW""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Nginx,Web application firewall protection,modsecurity off;,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Apache,Web application firewall protection,SecRuleEngine Off,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,AWS WAF,Web application firewall protection,"rule_action = ""ALLOW""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Nginx,Web application firewall protection,modsecurity off;,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Apache,Web application firewall protection,SecRuleEngine Off,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,AWS WAF,Web application firewall protection,"rule_action = ""ALLOW""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Nginx,Web application firewall protection,modsecurity off;,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Apache,Web application firewall protection,SecRuleEngine Off,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,AWS WAF,Web application firewall protection,"rule_action = ""ALLOW""",Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Nginx,Web application firewall protection,modsecurity off;,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.
+6,6.6,Apache,Web application firewall protection,SecRuleEngine Off,Non-Compliant,1,Implementation violates PCI DSS Requirement 6 secure coding requirements.

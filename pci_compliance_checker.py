@@ -1,11 +1,10 @@
-import pickle # for loading the model
-import re # for regular expressions
-import os # for file path handling
-import warnings # suppress scikit-learn warnings
-from typing import Dict, List # for type hints
-import numpy as np # for vectorization
-from sklearn.metrics.pairwise import cosine_similarity # for similarity calculation
-
+import pickle
+import re
+import os
+import warnings
+from typing import Dict, List
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 
 warnings.filterwarnings('ignore', category=UserWarning, module='sklearn')
 
@@ -22,13 +21,13 @@ class PCIComplianceChecker:
         self.classifier = data['classifier']
         self.violation_patterns = data['violation_patterns']
     
-    def check_code(self, code: str, detailed=False) -> Dict: 
+    def check_code(self, code: str, detailed=False) -> Dict:
         code = str(code)
         
         # AI prediction
-        vec = self.vectorizer.transform([code]) # vectorize the code
-        pred = self.classifier.predict(vec)[0] # predict the class
-        proba = self.classifier.predict_proba(vec)[0] # get the probability
+        vec = self.vectorizer.transform([code])
+        pred = self.classifier.predict(vec)[0]
+        proba = self.classifier.predict_proba(vec)[0]
         
         ai_status = 'COMPLIANT' if pred == 1 else 'NON_COMPLIANT'
         ai_conf = max(proba) * 100

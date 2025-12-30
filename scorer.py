@@ -30,7 +30,7 @@ def score_code(code: str):
         reason = f"Multiple violations detected: {result['violations']}"
     elif result['violations'] >= 1:
         score = 3
-        status = "Partially Compliant"
+        status = "Non-Compliant"
         reason = f"Minor issues detected: {result['violations']} violation(s)"
     else:
         score = 4
